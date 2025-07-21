@@ -4,15 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
-   font-family: "Roboto", sans-serif;
+   font-family: Roboto, sans-serif;
 
 }
+
 .header {
  width: 1,200px;
  height: 60px;
- background-color: #ffffff;
+ background-color: #fff;
  display: flex;
  justify-content: space-between;
  padding: 0 50px;
@@ -26,13 +28,16 @@ body {
   display: block;
 
 }
-.main-menu .nav_item{
+
+.main-menu .nav_item {
   display: flex;
   gap: 20;
   margin-left: 509px;
   margin-right: 50px;
+  flex-direction: row;
 
 }
+
 .nav_link {
   display: block;
   text-decoration: none;
@@ -44,6 +49,7 @@ body {
 
 
 }
+
 .nav_link:hover {
   color: #00acdc;
 }
@@ -51,7 +57,8 @@ body {
 .is-active {
   color: #00acdc;
 }
-. .is-active::after {
+
+.is-active::after {
   content: "";
   position: absolute;
   background-color: #00acdc;
