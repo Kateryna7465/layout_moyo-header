@@ -1,3 +1,64 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
+   font-family: "Roboto", sans-serif;
+
+}
+.header {
+ width: 1,200px;
+ height: 60px;
+ background-color: #ffffff;
+ display: flex;
+ justify-content: space-between;
+ padding: 0 50px;
+ align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  display: block;
+
+}
+.main-menu .nav_item{
+  display: flex;
+  gap: 20;
+  margin-left: 509px;
+  margin-right: 50px;
+
+}
+.nav_link {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+
+
+}
+.nav_link:hover {
+  color: #00acdc;
+}
+
+.is-active {
+  color: #00acdc;
+}
+. .is-active::after {
+  content: "";
+  position: absolute;
+  background-color: #00acdc;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  border-radius: 8px;
+
 }
