@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,18 +6,17 @@
 
 body {
   margin: 0;
-   font-family: Roboto, sans-serif;
-
+  font-family: Roboto, sans-serif;
 }
 
 .header {
- width: 1,200px;
- height: 60px;
- background-color: #fff;
- display: flex;
- justify-content: space-between;
- padding: 0 50px;
- align-items: center;
+  width: 1200px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
 }
 
 .logo {
@@ -26,17 +24,11 @@ body {
   height: 40px;
   margin-left: 50px;
   display: block;
-
 }
 
-.main-menu .nav_item {
+.main-menu .nav-item {
   display: flex;
-  gap: 20;
-  margin-left: 509px;
-  margin-right: 50px;
-
-
-}
+  gap: 20px;
 
 .nav_link {
   display: flex;
@@ -46,12 +38,12 @@ body {
   font-size: 12px;
   text-align: center;
   position: relative;
-
-
 }
 
 .nav-list {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .nav_link:hover {
@@ -63,7 +55,7 @@ body {
 }
 
 .is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   background-color: #00acdc;
   bottom: 0;
@@ -71,5 +63,4 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 8px;
-
 }
